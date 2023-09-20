@@ -111,6 +111,8 @@ For the technical test you can run locally that command at the root of the repos
 
 
 ### Airflow Dags
+Apache Airflow is a robust solution for managing and running complex data pipelines. It offers great flexibility, dependency management, failure recovery, and seamless integration with Google Cloud Platform. It is a smart choice for orchestrating and automating your data flows in a production environment.
+
 In the pipeline we can create dynamic dags by reading configuration files.
 The dags files would be stored in `Google Cloud Storage` and they would be read be `Google Cloud Composer`.
 #### Import dag
