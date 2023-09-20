@@ -1,0 +1,11 @@
+import:
+  tags : ["import"]
+  path_config : "./config/file_to_import.yaml"
+
+process:
+  tags : ["process"]
+  path_config : "./config/file_to_process.yaml"
+
+orchestrator:
+  tags : ["orchestrator"]
+  path_config : "./config/file_to_process.yaml"
